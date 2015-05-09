@@ -17,7 +17,7 @@ KEYWORDS=""
 EGIT_REPO_URI="git://github.com/Anthilla/Antd.git"
 EGIT_MASTER="master"
 
-DEPEND="dev-lang/mono"
+DEPEND="<=dev-lang/mono-3.12.1"
 RDEPEND="${DEPEND}"
 
 src_prepare() {
